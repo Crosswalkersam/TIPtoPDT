@@ -12,5 +12,8 @@ and decoded using [PDT-Telemetry-Explorer](https://github.com/nebarnix/PDT-Telem
 To run this script, you need to have python3 installed and added to PATH. After that, simply run `pip install tqdm`.
 
 # Usage
-To transcode TIP minorframes, simply drop the input file named `noaa_hrpt.tip` into the same directory as the script. 
-Run the script and use PDT-Telemetry-Explorer to decode the created .txt file.
+To decode telemetry from HRPT:
+1. Use [satDump](https://github.com/altillimity/SatDump) to decode .tip frames.
+2. To transcode TIP minorframes, simply drop the input file named `noaa_hrpt.tip` into the same directory as the script. 
+3. Run the script 
+4. Use PDT-Telemetry-Explorer to decode the created .txt file.
