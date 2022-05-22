@@ -1,5 +1,5 @@
 # TIPtoPDT
-This schript takes the .tip frames from satDump and converts them into a PDT-Telemetry-Explorer compatible format.
+This script takes the .tip frames from satDump and converts them into a PDT-Telemetry-Explorer compatible format.
 
 # Background
 NOAA 15/18/19 transmit SEM-MEPED and HIRS data via a direct sounder broadcast (DSB) at 137MHz to the earth.
@@ -12,5 +12,5 @@ and decoded using [PDT-Telemetry-Explorer](https://github.com/nebarnix/PDT-Telem
 To run this script, you need to have python3 installed and added to PATH. After that, simply run `pip install tqdm`.
 
 # Usage
-To transcode TIP minorframes, simply drop the inputfile named `noaa_hrpt.tip` into the same directory as the script. 
+To transcode TIP minorframes, simply drop the input file named `noaa_hrpt.tip` into the same directory as the script. 
 Run the script and use PDT-Telemetry-Explorer to decode the created .txt file.
